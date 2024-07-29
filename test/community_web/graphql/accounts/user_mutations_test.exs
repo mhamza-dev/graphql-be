@@ -27,7 +27,7 @@ defmodule CommunityWeb.GraphQl.Accounts.UserMutationTest do
                  "createUser" => %{
                    "id" => _,
                    "email" => email,
-                    "fullName" => full_name
+                   "fullName" => full_name
                  }
                }
              } =
