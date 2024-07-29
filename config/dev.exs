@@ -29,7 +29,7 @@ config :community, CommunityWeb.Endpoint,
   check_origin: false,
   code_reloader: true,
   debug_errors: true,
-  secret_key_base: "ufXNJWHwWwzyKCaS8lgggWKIlrEzy17Th099Kj1JDYytLqR9V5+XV4oQc4vLMKzX",
+  secret_key_base: System.get_env("APP_SECRET_KEY_BASE"),
   watchers: []
 
 # ## SSL Support
